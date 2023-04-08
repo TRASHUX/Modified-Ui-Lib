@@ -106,7 +106,7 @@ local defaulttheme = {
     BrightText = Color3.fromRGB(145,145,145);
     Font = "Gotham";
     SoundVolume = 0.5;
-    HideKey = "RightCtrl"
+    HideKey = "LeftAlt"
 }
 
 local Library = {
@@ -116,8 +116,8 @@ local Library = {
 local screeng = make("ScreenGui",{
     Parent = game.CoreGui;
     Name = "Ocerlib";
-    Enabled = false;
-    IgnoreGuiInset = true
+    Enabled = true;
+    IgnoreGuiInset = false
 })
 
 

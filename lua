@@ -106,7 +106,7 @@ local defaulttheme = {
     BrightText = Color3.fromRGB(145,145,145);
     Font = "Gotham";
     SoundVolume = 0.5;
-    HideKey = "LeftAlt"
+    HideKey = "RightCtrl"
 }
 
 local Library = {

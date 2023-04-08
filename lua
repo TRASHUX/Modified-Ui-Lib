@@ -116,8 +116,8 @@ local Library = {
 local screeng = make("ScreenGui",{
     Parent = game.CoreGui;
     Name = "Ocerlib";
-    Enabled = true;
-    IgnoreGuiInset = false
+    Enabled = false;
+    IgnoreGuiInset = true
 })
 
 
